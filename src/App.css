@@ -2,12 +2,25 @@ body {
   width: 290px;
   margin: auto;
 }
+a {
+  text-decoration: none;
+  padding: 8px;
+}
+a.active {
+  text-decoration: underline;
+}
+
 .Post {
   margin: 12px auto;
   padding: 12px 20px;
   border: solid #eee;
   border-radius: 4px;
 }
+
 .Post__Image {
   max-width: 250px;
+}
+
+.Nav {
+  padding: 8px;
 }
